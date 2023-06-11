@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rampages-first-mod",
+	"version": "${version}",
+	"name": "Rampage's First Mod",
+	"description": "I am honestly not sure what this does just yet",
+	"authors": [
+		"SpinalRampage"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/rampages-first-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"rampage.firstmod.FirstMod"
+		],
+		"client": [
+			"rampage.firstmod.FirstModClient"
+		],
+		"fabric-datagen": [
+			"rampage.firstmod.FirstModDataGenerator"
+		]
+	},
+	"mixins": [
+		"rampages-first-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
