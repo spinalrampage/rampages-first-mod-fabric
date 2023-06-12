@@ -18,6 +18,12 @@ public class Items {
             new Item(new FabricItemSettings()));//new Item(new FabricItemSettings());
     public static final Item GamerShovel = registerItem("gamer_shovel",
             new Item(new FabricItemSettings()));//new Item(new FabricItemSettings());
+    public static final Item GamerPickaxe = registerItem("gamer_pickaxe",
+            new Item(new FabricItemSettings()));//new Item(new FabricItemSettings());
+    public static final Item GamerAxe = registerItem("gamer_axe",
+            new Item(new FabricItemSettings()));//new Item(new FabricItemSettings());
+    public static final Item GamerHoe = registerItem("gamer_hoe",
+            new Item(new FabricItemSettings()));//new Item(new FabricItemSettings());
 
 	// Registry.register(Registries.ITEM, new Identifier(FirstMod.MOD_ID, "gamersword"), GamerSword);
 
