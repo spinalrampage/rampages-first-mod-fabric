@@ -8,6 +8,7 @@ package rampage.firstmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -32,8 +33,15 @@ public class FirstMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		// Register Items from our Mod
+		// Register Items from our Mod (I think)
 		Items.registerModItems();
+
+		// Make Items Fuel
+		FuelRegistry.INSTANCE.add(Items.GamerSword, 300);
+		FuelRegistry.INSTANCE.add(Items.GamerShovel, 300);
+		FuelRegistry.INSTANCE.add(Items.GamerPickaxe, 300);
+		FuelRegistry.INSTANCE.add(Items.GamerHoe, 300);
+		FuelRegistry.INSTANCE.add(Items.GamerAxe, 300);
 
 		// Logger Stuff? Idk
 		LOGGER.info("Hello Fabric world!");
