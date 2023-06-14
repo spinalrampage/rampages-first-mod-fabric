@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rampages-first-mod:item/gamer_sword"
+    "layer0": "rampages-gamer-tools:item/gamer_hoe"
   }
 }

@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
 
 public class FirstMod implements ModInitializer {
 	// Give the Mod an ID
-	public static final String MOD_ID = "rampages-first-mod";
+	public static final String MOD_ID = "rampages-gamer-tools"; // Sorry for changing this after the fact lmao
 
 
 
