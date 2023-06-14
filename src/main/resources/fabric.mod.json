@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/rampages-first-mod/icon.png",
+	"icon": "assets/rampages-gamer-tools/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
