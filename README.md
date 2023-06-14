@@ -1,7 +1,6 @@
-# rampages-first-mod-fabric
-*name subject to change, may become Rampage's Gamer Tools
+# Rampage's Gamer Tools
 
-First Minecraft Mod - Made for Fabric
+Adds a new set of tools and ores to Minecraft. Requires Fabric.
 
 Features:
 - Gamer Tools, better than Netherite ofc. Can be used as fuel in furnace
