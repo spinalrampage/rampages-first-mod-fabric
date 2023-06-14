@@ -1,10 +1,11 @@
 {
-  "item.rampages-first-mod.gamer_ore": "Gamer Ore",
-  "item.rampages-first-mod.gamer_ingot": "Gamer Ingot",
+  "item.rampages-gamer-tools.gamer_debris": "Gamer Debris",
+  "item.rampages-gamer-tools.gamer_scrap": "Gamer Scrap",
+  "item.rampages-gamer-tools.gamer_ingot": "Gamer Ingot",
 
-  "item.rampages-first-mod.gamer_axe": "Gamer Axe",
-  "item.rampages-first-mod.gamer_hoe": "Gamer Hoe",
-  "item.rampages-first-mod.gamer_pickaxe": "Gamer Pickaxe",
-  "item.rampages-first-mod.gamer_shovel": "Gamer Shovel",
-  "item.rampages-first-mod.gamer_sword": "Gamer Sword"
+  "item.rampages-gamer-tools.gamer_axe": "Gamer Axe",
+  "item.rampages-gamer-tools.gamer_hoe": "Gamer Hoe",
+  "item.rampages-gamer-tools.gamer_pickaxe": "Gamer Pickaxe",
+  "item.rampages-gamer-tools.gamer_shovel": "Gamer Shovel",
+  "item.rampages-gamer-tools.gamer_sword": "Gamer Sword"
 }

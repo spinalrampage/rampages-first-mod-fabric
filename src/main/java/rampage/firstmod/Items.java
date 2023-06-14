@@ -23,7 +23,9 @@ public class Items {
     // Gamer Blocks Instances
 
     // Gamer Items Instances
-    public static final Item GamerOre = registerItem("gamer_ore",
+    public static final Item GamerDebris = registerItem("gamer_debris",
+            new Item(new FabricItemSettings().maxCount(64)));
+    public static final Item GamerScrap = registerItem("gamer_scrap",
             new Item(new FabricItemSettings().maxCount(64)));
     public static final Item GamerIngot = registerItem("gamer_ingot",
             new Item(new FabricItemSettings().maxCount(64)));
