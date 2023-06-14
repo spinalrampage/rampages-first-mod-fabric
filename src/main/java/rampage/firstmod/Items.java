@@ -6,6 +6,7 @@ Hopefully adds new items to the game. Maybe. We'll see ig.
 package rampage.firstmod;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
@@ -21,6 +22,12 @@ public class Items {
 
     // Gamer Blocks Instances
 
+    // Gamer Items Instances
+    public static final Item GamerOre = registerItem("gamer_ore",
+            new Item(new FabricItemSettings().maxCount(64)));
+    public static final Item GamerIngot = registerItem("gamer_ingot",
+            new Item(new FabricItemSettings().maxCount(64)));
+
     // Gamer Tools Item Instances
     public static final Item GamerSword = registerItem("gamer_sword",
             new SwordItem(GamerToolMaterial.INSTANCE, 6, 1f, new Item.Settings()));
@@ -32,6 +39,8 @@ public class Items {
             new CustomAxeItem(GamerToolMaterial.INSTANCE, 7, -2.5f, new Item.Settings()));
     public static final Item GamerHoe = registerItem("gamer_hoe",
             new CustomHoeItem(GamerToolMaterial.INSTANCE, 0, -2.5f, new Item.Settings()));
+
+    // Gamer Armor Instances
 
 	// Registry.register(Registries.ITEM, new Identifier(FirstMod.MOD_ID, "gamersword"), GamerSword);
 

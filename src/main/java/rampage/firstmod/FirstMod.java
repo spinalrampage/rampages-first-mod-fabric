@@ -8,8 +8,10 @@ package rampage.firstmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -42,6 +44,13 @@ public class FirstMod implements ModInitializer {
 		FuelRegistry.INSTANCE.add(Items.GamerPickaxe, 300);
 		FuelRegistry.INSTANCE.add(Items.GamerHoe, 300);
 		FuelRegistry.INSTANCE.add(Items.GamerAxe, 300);
+
+		// Add Items to Groups
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> { content.add(Items.GamerSword); });
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> { content.add(Items.GamerShovel); });
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> { content.add(Items.GamerPickaxe); });
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> { content.add(Items.GamerHoe); });
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> { content.add(Items.GamerAxe); });
 
 		// Logger Stuff? Idk
 		LOGGER.info("Hello Fabric world!");
