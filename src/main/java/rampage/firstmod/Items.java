@@ -7,6 +7,11 @@ package rampage.firstmod;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.Item;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
@@ -22,9 +27,12 @@ public class Items {
 
     // Gamer Blocks Instances
 
+    // TODO: Make this block a real block
+//    public static final Block GamerDebris = new Block()
+
     // Gamer Items Instances
-    public static final Item GamerDebris = registerItem("gamer_debris",
-            new Item(new FabricItemSettings().maxCount(64)));
+//    public static final Item GamerDebris = registerItem("gamer_debris",
+//           new Item(new FabricItemSettings().maxCount(64)));
     public static final Item GamerScrap = registerItem("gamer_scrap",
             new Item(new FabricItemSettings().maxCount(64)));
     public static final Item GamerIngot = registerItem("gamer_ingot",

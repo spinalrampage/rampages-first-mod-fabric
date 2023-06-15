@@ -52,6 +52,9 @@ public class FirstMod implements ModInitializer {
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> { content.add(Items.GamerHoe); });
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> { content.add(Items.GamerAxe); });
 
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> { content.add(Items.GamerScrap); });
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> { content.add(Items.GamerIngot); });
+
 		// Logger Stuff? Idk
 		LOGGER.info("Hello Fabric world!");
 	}
