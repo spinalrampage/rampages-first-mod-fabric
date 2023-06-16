@@ -25,11 +25,6 @@ import rampage.firstmod.item.GamerToolMaterial;
 
 public class Items {
 
-    // Gamer Blocks Instances
-
-    // TODO: Make this block a real block
-//    public static final Block GamerDebris = new Block()
-
     // Gamer Items Instances
 //    public static final Item GamerDebris = registerItem("gamer_debris",
 //           new Item(new FabricItemSettings().maxCount(64)));
