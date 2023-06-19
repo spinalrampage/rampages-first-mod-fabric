@@ -35,8 +35,9 @@ public class FirstMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		// Register Items from our Mod (I think)
+		// Register Items and Blocks from our Mod (I think)
 		Items.registerModItems();
+		Blocks.registerModBlocks();
 
 		// Make Items Fuel
 		FuelRegistry.INSTANCE.add(Items.GamerSword, 300);

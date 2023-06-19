@@ -21,6 +21,7 @@ public class Blocks {
     public static final Block GamerDebris = registerBlocks("gamer_debris",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.END_STONE).strength(4.0f).requiresTool()));
 
+
     // Method for Registering New Blocks
     public static Block registerBlocks(String name, Block block)
     {
@@ -33,5 +34,10 @@ public class Blocks {
     {
         return Registry.register(Registries.ITEM, new Identifier(FirstMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
+    }
+
+    public static void registerModBlocks()
+    {
+        FirstMod.LOGGER.info("Registering Mod Blocks for " + FirstMod.MOD_ID);
     }
 }
