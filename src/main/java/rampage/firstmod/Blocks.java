@@ -19,7 +19,7 @@ public class Blocks {
 
     // Gamer Blocks Instances
     public static final Block GamerDebris = registerBlocks("gamer_debris",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.END_STONE).strength(4.0f).requiresTool()));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.DIAMOND_ORE).strength(4.0f).requiresTool()));
 
 
     // Method for Registering New Blocks
