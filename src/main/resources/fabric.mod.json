@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "rampages-gamer-tools",
 	"version": "${version}",
-	"name": "Rampage's First Mod",
-	"description": "I am honestly not sure what this does just yet",
+	"name": "Rampage's Gamer Tools",
+	"description": "Adds some Gamer Tools and accompanying items/blocks",
 	"authors": [
 		"SpinalRampage"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "//TODO ADD THIS",
+		"sources": "https://github.com/spinalrampage/rampages-gamer-tools"
 	},
 	"license": "MIT",
 	"icon": "assets/rampages-gamer-tools/icon.png",
