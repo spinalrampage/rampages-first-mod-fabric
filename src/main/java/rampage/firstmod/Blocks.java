@@ -14,12 +14,13 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class Blocks {
 
     // Gamer Blocks Instances
     public static final Block GamerDebris = registerBlocks("gamer_debris",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.DIAMOND_ORE).strength(4.0f).requiresTool()));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(net.minecraft.block.Blocks.DIAMOND_ORE).strength(4.0f).requiresTool(), UniformIntProvider.create(8, 15)));
 
 
     // Method for Registering New Blocks
