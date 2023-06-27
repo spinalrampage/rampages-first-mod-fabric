@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 6.0,
+  "ingredient": {
+    "item": "rampages-gamer-tools:gamer_debris"
+  },
+  "result": "rampages-gamer-tools:gamer_scrap"
+}

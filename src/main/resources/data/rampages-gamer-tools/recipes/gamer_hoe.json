@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "rampages-gamer-tools:gamer_ingot"
+    }
+  },
+  "pattern": [
+    "XX",
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "rampages-gamer-tools:gamer_hoe"
+  },
+  "show_notification": true
+}
