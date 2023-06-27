@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rampages-gamer-tools:gamer_scrap"
+    },
+    {
+      "item": "rampages-gamer-tools:gamer_scrap"
+    },
+    {
+      "item": "rampages-gamer-tools:gamer_scrap"
+    },
+    {
+      "item": "rampages-gamer-tools:gamer_scrap"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "rampages-gamer-tools:gamer_ingot"
+  }
+}
